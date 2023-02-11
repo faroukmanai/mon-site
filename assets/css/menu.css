@@ -1,0 +1,14 @@
+.menu{
+    display: flex;
+    gap:25px;
+    align-items: center;
+}
+.menu a{
+    color:white;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: all ease-in-out 0.7s;
+}
+.menu a:hover{
+    border-bottom: 1px solid rgb(144, 205, 206);
+}

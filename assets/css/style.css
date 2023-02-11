@@ -1,0 +1,66 @@
+
+@import "logo.css"; 
+@import "menu.css";
+@import "texte-image.css";
+@import "article-image-paragraphes.css";
+@import "bouton.css";
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display:900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(11, 11, 11);
+    color:white;
+    font-family: Raleway;    
+}
+
+nav{
+    display: flex;
+    /* gap:60px; */
+    padding:20px;
+    align-items: center;
+    justify-content: space-around;
+}
+/* nav > *{
+    width:250px;    
+} */
+nav img{
+    width: 40px;
+    height: 40px;
+}
+main{
+    box-sizing: border-box;
+    display: flex;
+    padding:20px;
+    flex-direction: column;
+    gap: 40px; 
+    padding-bottom: 40px;
+}
+section{
+    line-height: 1.5rem;
+    letter-spacing: 0.03rem;
+    font-weight: 100;
+    background-color: rgb(6, 7, 7);
+}
+
+.conteneur-langages{
+    display: flex;
+    flex-direction:column;
+    margin: 0 auto;
+    width: 90%;
+}
+.langages>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 20px; 
+    color: black;
+    margin: 20px;
+    font-size: 14px;  
+    
+}
+/* redirection vers un section */
