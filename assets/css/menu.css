@@ -18,7 +18,6 @@
     nav{
         position:fixed;
         background-color: rgb(0, 0, 0); 
-        
         inset:0;
         overflow-y:auto;
         padding:20px;
@@ -61,8 +60,17 @@
     }
 }
 @media (min-width:700px){ 
+    .menu{
+        position: relative;
+    }
+    input.gachette-menu-mobile{
+        display: none;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        padding: 20px;
+    } 
 
-input.gachette-menu-mobile{
-    display: none;
-}
 }
