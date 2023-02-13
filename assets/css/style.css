@@ -4,6 +4,7 @@
 @import "texte-image.css";
 @import "article-image-paragraphes.css";
 @import "bouton.css";
+@import "form.scss";
 @import url('https://fonts.googleapis.com/css?family=Red+Hat+Display:900&display=swap');
 *{
     margin: 0;
@@ -17,22 +18,14 @@ body{
 
 nav{
     display: flex;
-    /* gap:60px; */
-    padding:20px;
-    align-items: center;
-    justify-content: space-around;
-}
-/* nav > *{
-    width:250px;    
-} */
-nav img{
-    width: 40px;
-    height: 40px;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
 }
 main{
     box-sizing: border-box;
     display: flex;
-    padding:20px;
+    padding:0px 20px 20px 20px;
     flex-direction: column;
     gap: 40px; 
     padding-bottom: 40px;
@@ -50,7 +43,7 @@ section{
     margin: 0 auto;
     width: 90%;
 }
-.langages>div{
+/* .langages>div{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,5 +55,5 @@ section{
     margin: 20px;
     font-size: 14px;  
     
-}
-/* redirection vers un section */
+} */
+

@@ -8,22 +8,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Oleo+Script:wght@400;700&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
-    <title>FAROUK MANAI</title>
+    <script src="assets/js/burgerMenu.js"></script>
+    <title>FM - Développeur Web</title>
 </head>
 <body>
-    <header>
-        <nav>
-           <p class="logo">FAROUK MANAI</p> 
-           <div class="menu">
-                <a href="#Presentation">Présentation</a>
-                <a href="">Projets</a>
-                <a href="">Contact</a>
-           </div>
-           <div>
-            <a href="https://github.com/faroukmanai"><img src="assets/img/github1.png" alt="mon github"></a>
-           </div>
-        </nav>
-    </header>
+    <input class = "gachette-menu-mobile" type="checkbox" >
+    <nav>
+        <p class="logo">FAROUK MANAI</p>
+        <div class="menu">
+            <a href="#Presentation" class="presentation">Présentation</a>
+            <a href="">Projets</a>
+            <a href="">Contact</a>
+        </div>
+    </nav>
+    
     <main> 
         <section class="texte-image">
             <img src="assets/img/3.jpg" alt="hero image">
@@ -40,11 +38,10 @@
             </div>
             <div>
                 <article> 
-                    <!-- <h3>Lorem, ipsum dolor.</h3> -->
                     <p>Je suis un développeur web passionné, toujours en quête de nouveaux défis et de nouvelles technologies. J'aime travailler sur des projets complexes et trouver des solutions créatives aux problèmes qui se posent.</p>
                 </article>
                 <article> 
-                    <p>Je suis spécialisé dans les technologies front-end telles que HTML, CSS, JavaScript et React, mais je suis également à l'aise avec les technologies back-end telles que PHP et mySQL. Je suis capable de travailler sur des projets de A à Z, de la conception à la livraison.</p>
+                    <p>Je suis spécialisé dans les technologies front-end telles que HTML, CSS et JavaScript, mais je suis également à l'aise avec les technologies back-end telles que PHP et mySQL. Je suis capable de travailler sur des projets de A à Z, de la conception à la livraison.</p>
                 </article>
                 <article> 
                     <p>Je suis un développeur axé sur les utilisateurs, toujours en train de penser à la façon dont mes développements peuvent améliorer l'expérience de l'utilisateur final. J'ai une forte attention aux détails et je m'assure de livrer du code propre et maintenable. Je suis également toujours en train d'apprendre et de me tenir au courant des dernières tendances en développement web.</p>
@@ -54,20 +51,10 @@
                 <a href="" class="bouton">Voir mon CV</a>
             </div>
         </section>
+        
+        
     </main>
 
-    <!-- <script>
-        window.addEventListener('load', function() {
-          const lienPresentation = document.querySelector('#Presentation');
-          lienPresentation.addEventListener('click', function() {
-            document.querySelector('#Presentation').scrollIntoView({
-              behavior: 'smooth',
-              block: 'start',
-              duration: 2000
-            });
-          });
-        });
-      </script> -->
    
 </body>
 </html>

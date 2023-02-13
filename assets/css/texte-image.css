@@ -1,4 +1,3 @@
-/* Composante texte & image */
 
 .texte-image {
 	position: relative;
@@ -8,14 +7,11 @@
 	overflow: hidden;
 	min-height: 75vh;
 }
-
 .texte-image div {
 	position: relative;
 	max-width: 70ch;
 	text-align: center;
 }
-
-/* Version avec balise d'image */
 .texte-image h1{
     font-size:70px;
 	line-height: 3.5rem;
